@@ -1,21 +1,18 @@
-#include <main.h>
+#include "main.h"
 
 /**
- * main - prints main
- * Return: Always 0
- *
+ * print_alphabet - Make the aphabet
+ * Return: void
  */
 
-int main(void)
+void print_alphabet(void)
+
 {
-  _putchar('h');
-  _putchar('o');
-  _putchar('l');
-  _putchar('b');
-  _putchar('e');
-  _putchar('r');
-  _putchar('t');
-  _putchar('e');
-  _putchar('n');
-  return (0)'
+	char c;
+
+	for (c = 'a'; c <= 'z'; c++)
+    {
+	_putchar(c);
+    }
+	_putchar('\n');
 }
