@@ -61,7 +61,7 @@ int _strlen(char *s)
 {
 	int c = 0;
 
-	fot (; *s != '\0'; s++)
+	for (; *s != '\0'; s++)
 	{
 		c++;
 	}
